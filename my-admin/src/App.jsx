@@ -4,7 +4,7 @@ import {List, Datagrid, TextField} from 'react-admin';
 
 const App = () => (
   <Admin dataProvider={Dataprovider('http://localhost:8090')}>
-    <Resource name="posts" list={PostList} edit={PostEdit} create={PostCreate}
-  </Admin>
+    <Resource name="posts" list={PostList} edit={PostEdit} create={PostCreate} />
+    </Admin>
 );
 
