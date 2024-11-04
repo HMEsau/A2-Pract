@@ -8,3 +8,11 @@ const App = () => (
     </Admin>
 );
 
+const PostList = () => (
+  <List>
+    <Datagrid rowClick="edit">
+      <TextField source="title" />
+      <TextField source="content" />
+    </Datagrid>
+  </List>
+)
